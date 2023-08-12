@@ -1,0 +1,47 @@
+/* NavigationBar.css */
+.navbar {
+    background-color: #4C5B5C;
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-item {
+    margin-right: 10px;
+    
+  }
+  
+  .navbar-item:last-child {
+    margin-right: 0;
+  }
+  .link{
+    cursor: pointer;
+  }
+  .navbar-item a {
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+  }
+  
+  .navbar-item a:hover {
+    background-color: #555;
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald");
+
+p, li {
+    font-family: 'Cardo', serif;
+}
+   
+   h1, h2, h3, h4, h5, h6, Link, li{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+   }

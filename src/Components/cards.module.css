@@ -1,14 +1,6 @@
-.cards{
-  margin: 0 auto;
-  padding: 40px;
-  width: 600px;
-   display: flex;
-   justify-content: space-between;
-}
-
 @import url("https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald");
 
-p, li {
+.cont{
     font-family: 'Cardo', serif;
 }
    
@@ -16,7 +8,4 @@ p, li {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
    }
-
-   h2{
-    text-align: center;
-   }
+   
