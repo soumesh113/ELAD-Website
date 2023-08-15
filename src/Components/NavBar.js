@@ -5,6 +5,13 @@ import { Link } from 'react-scroll';
 const NavigationBar = () => {
   return (
     <nav className="navbar">
+      <div className='navbar-title'>
+        <h1>ELAD</h1>
+      </div>
+      <div className="navbar-logo">
+        <a href="#home"><img id= 'navbar-logo' src='Logo.png'></img></a>
+        </div>
+      <div className='links'>
       <ul className="navbar-list">
         <li className="navbar-item">
           <Link className = "link"
@@ -52,6 +59,7 @@ const NavigationBar = () => {
 
         </li>
       </ul>
+        </div>
     </nav>
   );
 };

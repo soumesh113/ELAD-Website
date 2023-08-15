@@ -1,20 +1,37 @@
 /* NavigationBar.css */
 .navbar {
     background-color: #4C5B5C;
-    height: 50px;
-    overflow: hidden;
+    /* height: 50px; */
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem;
   }
-  
+  .navbar-title{
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+  }
   .navbar-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
   }
-  
+  #navbar-logo{
+    height: 5rem;
+    width: auto;
+  }
+  .navbar-logo{
+    height: auto;
+    padding: 0;
+    display: flex;
+    margin-left: 20rem;
+    align-items: center;
+  }
   .navbar-item {
     margin-right: 10px;
-    
   }
   
   .navbar-item:last-child {
@@ -22,6 +39,11 @@
   }
   .link{
     cursor: pointer;
+  }
+  .links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
   .navbar-item a {
     color: white;

@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img_1 from "./img_1.jpeg"
-import img_2 from "./img_2.jpeg"
-import img_3 from "./img_3.jpg"
 import "./index.css"
 
 function SampleNextArrow(props) {
@@ -50,13 +47,13 @@ class Carousel extends Component {
       <h2>Events</h2>
       <Slider {...settings}>
           <div>
-            <img src = {img_1} width = "100%"></img>
+            <img src ="img_1.jpeg" width = "100%" alt=''></img>
           </div>
           <div>
-            <img src = {img_2} width = "100%"></img>
+            <img src = "img_3.jpeg" width = "100%" alt=''></img>
           </div>
           <div>
-            <img src = {img_3} width = "100%"></img>
+            <img src = "img_2.jpeg" width = "100%" alt=''></img>
           </div>
       </Slider>
     </div>
